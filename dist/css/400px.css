@@ -1,0 +1,20 @@
+/*.featured-work {*/
+/*h4 {*/
+/*font-size: 1.7rem;*/
+/*}*/
+/*}*/
+header {
+  justify-content: space-between; }
+
+.header-logo {
+  width: 4.1rem;
+  height: 4.1rem; }
+
+.header-title {
+  width: initial;
+  text-align: right; }
+  .header-title .email {
+    display: none; }
+
+.introduction p .email {
+  display: inline-block; }

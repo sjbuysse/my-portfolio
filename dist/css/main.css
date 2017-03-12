@@ -1,0 +1,104 @@
+html,
+body {
+  width: 100%;
+  font-family: "Lato", sans-serif; }
+
+body {
+  height: 100%; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4 {
+  color: #141414;
+  font-weight: 400; }
+
+h1,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+img {
+  max-width: 100%; }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none; }
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+p {
+  color: #5e5e5e; }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0 10px 0; }
+
+.header-logo {
+  margin-top: 1rem;
+  width: 4.5rem;
+  height: 4.5rem; }
+
+.header-title {
+  margin: 0;
+  width: 100%;
+  text-align: center; }
+  .header-title h1 {
+    margin: 0.7rem 0 0.5rem;
+    font-size: 2.2rem; }
+  .header-title h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.4rem; }
+
+.introduction {
+  max-width: 580px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: 2rem auto 2.5rem;
+  /*.email {*/
+  /*display: none;*/
+  /*}*/ }
+
+.header-line {
+  display: none; }
+
+section {
+  background-color: #eee;
+  text-align: center;
+  padding: 0 10px; }
+  section h2 {
+    padding: 1rem 0 0.5rem; }
+  section h4 {
+    width: 100%;
+    margin: 0.3rem 0; }
+  section .work-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2rem; }
+    section .work-thumb img {
+      width: 80%;
+      align-self: flex-start; }
+    section .work-thumb .technologies {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      margin-top: 0; }
+      section .work-thumb .technologies li {
+        margin: 0.2rem 0.7rem; }

@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my web development portfolio",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "simon",
+    "udacity"
+  ],
+  "author": "simon buysse",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-responsive-images": "^0.1.7",
+    "grunt-responsive-images-extender": "^2.0.0",
+    "grunt-sass": "^1.2.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}

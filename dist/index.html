@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="description" content="Portfolio Simon Buysse" />
+    <meta name="author" content="Simon Buysse">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <title>Simon Buysse's Portfolio</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/400px.css" media="(min-width: 400px)"/>
+    <link rel="stylesheet" href="css/640px.css" media="(min-width: 640px)"/>
+    <link rel="stylesheet" href="css/768px.css" media="(min-width: 768px)"/>
+    <link rel="stylesheet" href="css/850px.css" media="(min-width: 850px)"/>
+    <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="img/logo.svg" class="header-logo" alt="Udacity logo">
+        <div class="header-title">
+            <h1>Simon Buysse</h1>
+            <h3>Front-end developer</h3>
+            <a href="mailto:buysse.simon@gmail.com" class="email">buysse.simon[at]gmail.com</a>
+        </div>
+        <hr class="header-line">
+        <div class="introduction">
+            <p>
+            <picture class="self-portrait">
+                <!--transparent image-->
+                <source
+                srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                media="(max-width: 639px)"
+                alt="" />
+                <source 
+                srcset="img/landscape/ramsberg-medium.jpg 640w, img/landscape/ramsberg-large.jpg 800w, img/landscape/ramsberg-large_x2.jpg 1600w"
+                sizes="400px"
+                media="(min-width: 850px)">
+                <source 
+                srcset="img/portrait/selfie-small.jpg 320w, img/portrait/selfie-medium.jpg 640w, img/portrait/selfie-large.jpg 800w" 
+                sizes="192px"
+                media="(min-width: 640px)">
+                <img
+                srcset="img/portrait/selfie-small.jpg 320w, img/portrait/selfie-medium.jpg 640w, img/portrait/selfie-large.jpg 800w "
+                alt="a portrait of myself"
+                sizes="160px"/>
+            </picture>
+            At this very moment I'm travelling in New-Zealand while studying front-end web development. 
+            With the goal of gaining experience and doing what I love, I'm offering my free services 
+            to help you out with your web project! 
+            <br>I'll be looking for a new project in Auckland from the 20th of July onward. 
+            Want to know more? Send me an email
+            <span class="email"> at <a href="mailto:buysse.simon@gmail.com">buysse.simon[at]gmail.com</a></span>! 
+            </p>
+        </div>
+    </header>
+    <section class="featured-work">
+        <h2>Featured work</h2>
+        <div class="work-thumb">
+            <a href="http://www.travelcrumbs.net">
+            <img src="img/landscape/blog0-small.jpg" alt="Image of sample homepage of a blog site"
+            srcset="img/landscape/blog0-small.jpg 400w, img/landscape/blog0-medium.jpg 640w, img/landscape/blog0-large.jpg 800w, img/landscape/blog0-large_x2.jpg 1600w"
+            sizes="(min-width: 768px) 250px, (min-width: 992px) 320px, (min-width: 1200px) 390px, 100vw"/>
+            <h4>Travelcrumbs</h4>
+            </a>
+            <p class="project-description">
+            A responsive travelblog where the user can easily add a story using markdown language, and a gallery of pictures. All of the stories will be saved to the database and formatted in a beautiful layout. The actual images in the galleries are stored on a CDN (cloudinary) and displayed responsively.
+            </p>
+            <ul class="technologies">
+                <li>Ruby on Rails</li>
+                <li>Postgres</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="work-thumb">
+            <a href="http://www.auspermaculture.com">
+            <img src="img/landscape/losfergos0-small.jpg" alt="Image of sample homepage of a permaculture workshop site"
+            srcset="img/landscape/losfergos0-small.jpg 400w, img/landscape/losfergos0-medium.jpg 640w, img/landscape/losfergos0-large.jpg 800w, img/landscape/losfergos0-large_x2.jpg 1600w"
+            sizes="(min-width: 768px) 250px, (min-width: 992px) 320px, (min-width: 1200px) 390px, 100vw"/>
+            <h4>LosFergos</h4>
+            </a>
+            <p class="project-description">
+            A responsive wordpress website I quickly put together for my host and friend Carl.
+            He uses this website to introduce and advertise his earth building workshops.
+            </p>
+            <ul class="technologies">
+                <li>Wordpress</li>
+                <li>Heroku</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Postgres</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="work-thumb">
+            <img src="https://loremflickr.com/400/300" alt="image placeholder for a thumb that's supposed to present a featured work"
+            srcset="https://loremflickr.com/400/300 400w, https://loremflickr.com/800/600 800w, https://loremflickr.com/1024/768 1024w"
+            sizes="(min-width: 768px) 250px, (min-width: 992px) 320px, (min-width: 1200px) 390px, 100vw"/>
+            <h4>Appify</h4>
+            <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </div>
+        <div class="work-thumb">
+            <img src="https://loremflickr.com/400/300" alt="image placeholder for a thumb that's supposed to present a featured work"
+            srcset="https://loremflickr.com/400/300 400w, https://loremflickr.com/800/600 800w, https://loremflickr.com/1024/768 1024w"
+            sizes="(min-width: 768px) 250px, (min-width: 992px) 320px, (min-width: 1200px) 390px, 100vw"/>
+            <h4>Appify</h4>
+            <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </div>
+        <div class="work-thumb">
+            <img src="https://loremflickr.com/400/300" alt="image placeholder for a thumb that's supposed to present a featured work"
+            srcset="https://loremflickr.com/400/300 400w, https://loremflickr.com/800/600 800w, https://loremflickr.com/1024/768 1024w"
+            sizes="(min-width: 768px) 250px, (min-width: 992px) 320px, (min-width: 1200px) 390px, 100vw"/>
+            <h4>Appify</h4>
+            <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </div>
+    </section>
+</div>
+</body>
+</html>

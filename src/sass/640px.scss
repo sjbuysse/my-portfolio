@@ -1,0 +1,61 @@
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    padding: 0;
+}
+
+.header-title {
+    h1 {
+        font-size: 2.4rem;
+    }
+}
+
+hr.header-line {
+    display: block;
+    width: 100%;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.header-logo {
+    width: 4.3rem;
+    height: 4.3rem;
+}
+
+.self-portrait {
+    float: right;
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.introduction p {
+    text-align: left;
+}
+
+
+section {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .work-thumb {
+        width: 47%;
+        img {
+            width: 100%;
+        }
+    }
+
+    h2 {
+        width: 100%;
+        display: inline-block;
+        margin: 0 auto 1.5rem;
+        border-top: 2px solid #ddd;
+        border-bottom: 2px solid #ddd;
+        padding: 1rem 3rem;
+    }
+}

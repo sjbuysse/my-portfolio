@@ -1,0 +1,13 @@
+section .work-thumb {
+  width: 31%; }
+
+.container {
+  max-width: 820px; }
+
+.introduction {
+  max-width: initial; }
+  .introduction p {
+    text-align: left; }
+
+.self-portrait {
+  width: 400px; }
